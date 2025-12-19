@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Amigo Secreto 🎁</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #c31432, #240b36);
+      font-family: 'Arial', sans-serif;
+      color: white;
+      text-align: center;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.15);
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 0 30px rgba(0,0,0,0.3);
+      animation: aparecer 1.2s ease;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
+
+    .nome {
+      font-size: 3em;
+      font-weight: bold;
+      color: #ffd700;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+    }
+
+    .emoji {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+
+    @keyframes aparecer {
+      from {
+        opacity: 0;
+        transform: scale(0.8);
+      }
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <div class="emoji">🎁🎄</div>
+    <h1>Seu amigo secreto é</h1>
+    <div class="nome">Gilmar</div>
+  </div>
+
+</body>
+</html>
